@@ -1,0 +1,10 @@
+#googleSignInDiv {
+	margin-top: 10px;
+	/* centered horizontally */
+	display: inline-block;
+}
+
+/* references: 
+  https://stackoverflow.com/questions/114543/how-can-i-horizontally-center-an-element
+
+  */

@@ -1,0 +1,65 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.createAppointmentBox {
+	margin-top: 15px;
+	height: 920px;
+	background-color: white;
+	border: 2px solid whitesmoke;
+}
+
+.createAnAppointmentHeading {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: bold;
+	color: grey;
+}
+
+/* used !important to override styling config set by MaterialUI */
+.createAppointmentButton {
+	background-color: rgb(60, 190, 144) !important;
+	width: 90% !important;
+	height: 50px;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+	margin-top: 30px !important;
+}
+
+.patientNameInput,
+.patientLastNameInput,
+.purposeInput,
+.phoneNumberInput,
+.typeInput {
+	width: 90%;
+	margin-top: 20px !important;
+}
+
+/* re-aligning the select boxes to match up with the textfield boxes */
+.medicalAidInput,
+.smokerInput,
+.typeInput,
+.dateAndTimePicker {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.formControl {
+	text-align: left;
+}
+
+.medicalAidLabel,
+.smokerLabel,
+.typeLabel {
+	margin-left: 15px !important;
+}
+
+.medicalAidInput,
+.medicalAidLabel,
+.smokerInput,
+.smokerLabel,
+.typeInput,
+.typeLabel,
+.dateAndTimePicker {
+	margin-top: 20px !important;
+}

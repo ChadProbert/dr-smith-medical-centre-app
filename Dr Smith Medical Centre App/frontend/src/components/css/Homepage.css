@@ -1,0 +1,171 @@
+/* imported google fonts */
+@import url("https://fonts.googleapis.com/css?family=Padauk");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+.welcomeHeading,
+.welcomeSubHeading {
+	/* applied the google font */
+	font-family: "Padauk", sans-serif;
+	margin-left: 100px;
+	text-align: left;
+}
+
+.welcomeHeading {
+	font-size: 75px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+.aboutUsBox {
+	background-color: rgba(236, 236, 236, 0.658);
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	/* applied Google Font */
+	font-family: "Open Sans", sans-serif;
+}
+
+.aboutUsHeading,
+.reviewsHeading {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/* used !important to overwrite default config set by MaterialUI */
+.appointmentsButton {
+	margin-top: 20px !important;
+	margin-left: 100px !important;
+	margin-bottom: 30px !important;
+	background-color: rgb(53, 192, 237) !important;
+}
+
+.adminButton {
+	margin-left: 100px !important;
+	background-color: rgb(40, 194, 127) !important;
+	margin-bottom: 120px !important;
+}
+
+/* removes the blue underline applied to links */
+.appointmentsLink,
+.adminLoginLink {
+	text-decoration: none;
+}
+
+/* applied a background image to the welcome and about us section */
+.background1 {
+	background-image: url("../images/background images/11.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.reviewsBox {
+	padding-left: 10%;
+	padding-right: 10%;
+	/* vertically centered the text inside */
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+	/* applied Google Font */
+	font-family: "Open Sans", sans-serif;
+}
+
+/* centered the 3 reviewer cards */
+.reviewerColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* removed gutters */
+.row1 {
+	margin: 0px;
+}
+
+.card {
+	height: 470px;
+}
+
+.cardText {
+	padding-left: 5%;
+	padding-right: 5%;
+	/* applied Google Font */
+	font-family: "Roboto Slab", serif;
+	font-size: 19px;
+}
+
+.cardTitle {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* creates the fade in effect of the heading "Hello. I'm Doctor Smith" */
+#fadeInDiv {
+	-webkit-animation: fadein 2s; /* supports Safari, Chrome and Opera > 12.1 browsers */
+	-moz-animation: fadein 2s; /* supports Firefox < 16 browsers */
+	-ms-animation: fadein 2s; /* supports Internet Explorer browsers */
+	-o-animation: fadein 2s; /* supports Opera < 12.1 browsers */
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* references: 
+  https://fonts.google.com/specimen/Padauk
+	https://fonts.google.com/specimen/Open+Sans
+	https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab
+	https://www.w3schools.com/css/tryit.asp?filename=trycss_align_padding2
+	https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
+	
+  */

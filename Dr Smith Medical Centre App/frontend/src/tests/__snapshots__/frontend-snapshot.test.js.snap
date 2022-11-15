@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of Homepage 1`] = `
+<div
+  className="homepage"
+  data-testid="homepageTest"
+>
+  <header
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic appBar css-hip9hq-MuiPaper-root-MuiAppBar-root"
+    data-testid="userNavBarTest"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular toolBar css-hyum1k-MuiToolbar-root"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          className="appLogo"
+          src="logo.png"
+        />
+      </a>
+      <h6
+        className="MuiTypography-root MuiTypography-h6 css-1qp5wg9-MuiTypography-root"
+      >
+        <a
+          className="navBarLink"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </h6>
+      <h6
+        className="MuiTypography-root MuiTypography-h6 css-1qp5wg9-MuiTypography-root"
+      >
+        <a
+          className="navBarLink"
+          href="/appointments"
+          onClick={[Function]}
+        >
+          Appointments
+        </a>
+      </h6>
+      <h6
+        className="MuiTypography-root MuiTypography-h6 css-1qp5wg9-MuiTypography-root"
+      >
+        <a
+          className="navBarLink"
+          href="/admin-login"
+          onClick={[Function]}
+        >
+          Admin Dashboard
+        </a>
+      </h6>
+    </div>
+  </header>
+  <div
+    className="background1"
+  >
+    <div
+      className="row1 row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <div>
+          <div
+            id="fadeInDiv"
+          >
+            <h2
+              className="welcomeHeading"
+            >
+              Hello. I'm 
+              <br />
+               Dr. Smith
+            </h2>
+          </div>
+        </div>
+        <h4
+          className="welcomeSubHeading"
+        >
+          Licensed Medical Doctor
+        </h4>
+        <a
+          className="appointmentsLink"
+          href="/appointments"
+          onClick={[Function]}
+        >
+          <button
+            className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root appointmentsButton css-sghohy-MuiButtonBase-root-MuiButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            View Appointments
+          </button>
+        </a>
+        <br />
+        <a
+          className="adminLoginLink"
+          href="/admin-login"
+          onClick={[Function]}
+        >
+          <button
+            className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root adminButton css-sghohy-MuiButtonBase-root-MuiButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            I am an administrator
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="aboutUsBox"
+    >
+      <h3
+        className="aboutUsHeading"
+      >
+        About Us
+      </h3>
+      <p
+        className="aboutUsMessage"
+      >
+        We are a team of medical health professionals with many years of work experience. We pride ourselves on providing the best quality healthcare service to our patients.
+      </p>
+    </div>
+  </div>
+  <div>
+    <div
+      className="reviewsBox"
+    >
+      <h3
+        className="reviewsHeading"
+      >
+        Reviews
+      </h3>
+      <div
+        className="reviewRow row"
+      >
+        <div
+          className="reviewerColumn col-md-4"
+        >
+          <div
+            className="card card"
+            style={
+              Object {
+                "width": "22rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="reviewer 2.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="cardTitle card-title h5"
+              >
+                Emma Harlow
+              </div>
+              <p
+                className="cardText card-text"
+              >
+                "Dr. Smith has been my doctor for 11 years now! She is always willing to help. I highly recommend her to anyone who is looking for a doctor."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="reviewerColumn col-md-4"
+        >
+          <div
+            className="card card"
+            style={
+              Object {
+                "width": "22rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="reviewer 8.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="cardTitle card-title h5"
+              >
+                John Doe
+              </div>
+              <p
+                className="cardText card-text"
+              >
+                "Dr. Smith is an excellent doctor. She is very passionate as well as meticulous when going about doing what she loves!"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="reviewerColumn col-md-4"
+        >
+          <div
+            className="card card"
+            style={
+              Object {
+                "width": "22rem",
+              }
+            }
+          >
+            <img
+              className="card-img-top"
+              src="reviewer 10.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="cardTitle card-title h5"
+              >
+                Jane Maritz
+              </div>
+              <p
+                className="cardText card-text"
+              >
+                "Dr. Smith is a very patient and caring doctor. She is always willing to help and is always available to answer any questions you may have."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="contactUsBox"
+    data-testid="contactUsTest"
+  >
+    <h3
+      className="contactUsHeading"
+    >
+      Contact Us To Book An Appointment!
+    </h3>
+    <p
+      className="contactUsText"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        data-testid="CallIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
+        />
+      </svg>
+       012 345 6789
+      <br />
+      <br />
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        data-testid="EmailIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+        />
+      </svg>
+       drsmithmedcentre@gmail.com
+      <br />
+      <br />
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        data-testid="LocationOnIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+        />
+      </svg>
+       123 Sampson Drive, Farrarmere, Benoni, South Africa
+    </p>
+  </div>
+</div>
+`;

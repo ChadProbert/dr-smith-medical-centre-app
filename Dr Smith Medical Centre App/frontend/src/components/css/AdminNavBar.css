@@ -1,0 +1,40 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.appBar {
+	background-color: whitesmoke !important;
+	width: 100%;
+}
+
+.appLogo {
+	width: 60px;
+	height: 60px;
+}
+
+/* gives spacing between the edge of the screen and the logo */
+.toolBar {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.navBarLink {
+	color: #212529 !important;
+	font-size: 17px;
+	text-decoration: none !important;
+	padding-left: 25px;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+}
+
+.createAdminButton {
+	background-color: rgb(60, 190, 144) !important;
+	color: white !important;
+	padding: 10px !important;
+}
+
+.signOutButton {
+	background-color: #e1e1e1 !important;
+	padding: 10px !important;
+	color: #333333 !important;
+	margin-left: 20px !important;
+}

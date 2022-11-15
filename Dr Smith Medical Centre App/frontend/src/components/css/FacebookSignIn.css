@@ -1,0 +1,9 @@
+/* Facebook sign in button styling */
+.my-facebook-button-class {
+	background-color: #4e87d4;
+	border: 1px solid #6b9cdf;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	width: 60%;
+}

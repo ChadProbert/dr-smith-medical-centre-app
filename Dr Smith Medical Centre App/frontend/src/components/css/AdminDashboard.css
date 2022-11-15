@@ -1,0 +1,111 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.row {
+	/* removes the gutters */
+	margin: 0px !important;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+}
+
+.createAppointmentSection {
+	height: 950px;
+	background-color: rgb(192, 192, 192);
+}
+
+th {
+	background-color: rgb(53, 192, 237) !important;
+	border-bottom: 2px solid rgb(53, 192, 237) !important;
+	font-size: 17px;
+}
+
+td {
+	padding: 8px;
+	font-size: 15px;
+}
+
+/* dims the row of cells in the table that the user is hovering over */
+tr:hover {
+	background-color: rgba(133, 133, 133, 0.128);
+}
+
+.table {
+	margin-top: 12px;
+	background-color: white;
+	border-collapse: separate;
+}
+
+/* added a border radius effect around the table */
+.leftTableCorner {
+	border-top-left-radius: 7px;
+}
+.rightTableCorner {
+	border-top-right-radius: 7px;
+}
+
+/* displayed the edit and delete button inline next to each other */
+.actionButton {
+	display: inline-block;
+}
+
+/* used colours that correspond with their purpose to improve user-friendliness */
+.editButton {
+	background-color: grey !important;
+}
+.deleteButton {
+	background-color: #ed5e68 !important;
+}
+
+.editInput {
+	width: 100%;
+	margin-top: 20px !important;
+}
+
+.dialogTitle {
+	text-align: center;
+	font-size: 28px !important;
+}
+
+.dialog {
+	text-align: center;
+}
+
+/* aligns the selected option to display on the left of the input */
+.formControl {
+	text-align: left;
+}
+
+/* added spacing between the input boxes */
+.medicalAidEditLabel,
+.medicalAidEditInput,
+.smokerEditLabel,
+.smokerEditInput,
+.typeEditLabel,
+.typeEditInput {
+	margin-top: 20px;
+}
+
+.cancelButton {
+	color: #333333 !important;
+	background-color: #e1e1e1 !important;
+}
+
+.saveChangesButton {
+	background-color: rgb(60, 190, 144) !important;
+}
+
+.saveChangesButton,
+.cancelButton {
+	margin: 10px !important;
+}
+
+.saveCancelContainer {
+	margin-top: 20px !important;
+	float: right;
+}
+
+/* references:
+	my own work from level 3 task 7 
+	https://stackoverflow.com/questions/21376788/how-to-display-3-buttons-on-the-same-line-in-css
+
+	*/

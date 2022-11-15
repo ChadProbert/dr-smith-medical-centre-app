@@ -1,0 +1,43 @@
+.usernameInput,
+.passwordInput {
+	width: 90%;
+	margin-top: 20px !important;
+}
+
+.loginBox {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	/* centered the login box horizontally */
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 450px;
+	height: 700px;
+	padding: 50px;
+	border: 1px solid rgb(228, 228, 228);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.082) 1px 1px 25px 5px;
+}
+
+/* used !important to overwrite the default config set by MaterialUI */
+.loginButton {
+	background-color: rgb(40, 194, 127) !important;
+	margin-top: 35px !important;
+	margin-bottom: 40px !important;
+	border-radius: 5px !important;
+	width: 90%;
+}
+
+.loginHeading {
+	color: rgb(73, 68, 68);
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+/* references:
+	https://www.w3schools.com/css/css_align.asp
+
+	*/

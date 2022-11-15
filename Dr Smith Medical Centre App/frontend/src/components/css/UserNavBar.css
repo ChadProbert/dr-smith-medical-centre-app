@@ -1,0 +1,25 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.appBar {
+	background-color: whitesmoke !important;
+}
+
+.appLogo {
+	width: 60px;
+	height: 60px;
+}
+
+/* gives spacing between the edge of the screen and the logo */
+.toolBar {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.navBarLink {
+	color: #212529 !important;
+	font-size: 17px;
+	padding-left: 25px;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+}

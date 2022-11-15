@@ -1,0 +1,71 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.row {
+	/* removes the gutters */
+	margin: 0px;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+}
+
+.createAppointmentSection {
+	height: 550px;
+	/* helps emphasize this section being locked to non-admin users */
+	background-color: rgba(0, 0, 0, 0.38);
+	/* centres the login as admin button horizontally */
+	text-align: center;
+}
+
+/* used !important to override styling config set by MaterialUI */
+.loginAsAdminButton {
+	background-color: rgb(40, 194, 127) !important;
+	width: 80% !important;
+	height: 50px;
+	/* centres the login as admin button vertically */
+	margin-top: 250px !important;
+	margin-bottom: 250px !important;
+	/* applied Google Font */
+	font-family: "Open Sans" !important;
+}
+
+.lockIcon {
+	/* made spacing between the icon and text inside of the button */
+	margin-left: 5px;
+	/* controls the sizing of the icon */
+	font-size: 17px !important;
+}
+
+th {
+	background-color: rgb(53, 192, 237) !important;
+	border-bottom: 2px solid rgb(53, 192, 237) !important;
+	font-size: 17px;
+}
+
+td {
+	padding: 8px;
+	font-size: 15px;
+}
+
+/* dims the row of cells in the table that the user is hovering over */
+tr:hover {
+	background-color: rgba(133, 133, 133, 0.128);
+}
+
+.table {
+	margin-top: 12px;
+	background-color: white;
+	border-collapse: separate;
+}
+
+/* added a border radius effect around the table */
+.leftTableCorner {
+	border-top-left-radius: 7px;
+}
+.rightTableCorner {
+	border-top-right-radius: 7px;
+}
+
+/* references:
+	my own work from level 3 task 7 
+
+	*/

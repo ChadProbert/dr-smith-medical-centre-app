@@ -1,0 +1,19 @@
+/* imported Google Font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.contactUsBox {
+	background-color: #212529;
+	color: whitesmoke;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	padding-top: 100px;
+	height: 350px;
+	/* applied google font */
+	font-family: "Open Sans", sans-serif;
+}
+
+.contactUsHeading {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
