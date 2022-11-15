@@ -1,4 +1,4 @@
-# Dr. Smith Medical Centre Application
+# Dr. Smith Medical Centre Application :stethoscope:
 
 The primary users of the application will be the patients and the reception of the Dr. Smith Medical Centre.
 Patients will be able to view Dr. Smith's appointments so they know what options they have when
@@ -64,7 +64,7 @@ application.
 - The admin sign-in credentials should be protected using JWT and password hashing.
 - The application should be able to be deployed on Heroku.
 
-#### User Stories
+#### User Stories :memo:
 
 - As a normal end-user, I want to view the doctor's appointments so that I know when I can make an
   appointment for.
