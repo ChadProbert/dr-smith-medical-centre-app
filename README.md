@@ -191,7 +191,7 @@ npm start
 2. Run the following command to install the dependencies
 
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 3. Run the following command to start the frontend server
