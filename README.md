@@ -249,3 +249,9 @@ This application does not make use of any external API's and therefore does not 
 This application was deployed using [Heroku](https://www.heroku.com/). I deployed the frontend and backend together. I decided to do it this way since the frontend and backend are both deployed on Heroku and therefore it is easier to deploy them together. I was the only person to work on this project and therefore created the backend and frontend myself. I used the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) to deploy the application.
 
 ### Deployed App - [https://dr-smith-medical-centre.herokuapp.com/](https://dr-smith-medical-centre.herokuapp.com/)
+<br />
+
+### __This project's website is currently down due to Heroku removing their free dynos plan*__
+
+### Github Repository - [
+
