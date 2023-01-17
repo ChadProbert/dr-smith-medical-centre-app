@@ -253,5 +253,5 @@ This application was deployed using [Heroku](https://www.heroku.com/). I deploye
 
 ### __This project's website is currently down due to Heroku removing their free dynos plan*__
 
-### Github Repository - [
+### Github Repository - [https://github.com/ChadProbert/dr-smith-medical-centre-app](https://github.com/ChadProbert/dr-smith-medical-centre-app)
 
